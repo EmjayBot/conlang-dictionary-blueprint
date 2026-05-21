@@ -28,17 +28,20 @@ header {
   align-items: center;
 }
 
-#toggle-dark {
-  background: none;
-  border: none;
-  font-size: 1.4rem;
-  cursor: pointer;
+.controls {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
 }
 
 #search {
-  width: 100%;
+  flex: 1;
   padding: 12px;
-  margin: 20px 0;
+  font-size: 1rem;
+}
+
+#sort, #random {
+  padding: 10px;
   font-size: 1rem;
 }
 
